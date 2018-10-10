@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.lany.priceview.PriceView
+        android:id="@+id/price_view_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:value_text="123456.789" />
+
+    <com.lany.priceview.PriceView
+        android:id="@+id/price_view_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:decimals_size="14sp"
+        app:integer_size="20sp"
+        app:integer_thousands="true"
+        app:point_padding_left="5dp"
+        app:point_padding_right="5dp"
+        app:prefix_color="@android:color/holo_blue_light"
+        app:prefix_size="30sp"
+        app:prefix_text="¥"
+        app:value_color="@android:color/holo_red_light"
+        app:value_text="123456.78" />
+
+    <com.lany.priceview.PriceView
+        android:id="@+id/price_view_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:decimals_size="28sp"
+        app:integer_size="20sp"
+        app:integer_thousands="false"
+        app:point_padding_left="5dp"
+        app:point_padding_right="5dp"
+        app:prefix_color="@android:color/holo_green_light"
+        app:prefix_padding="15dp"
+        app:prefix_size="26sp"
+        app:prefix_text="$"
+        app:value_color="@android:color/holo_blue_light"
+        app:value_text="987.123" />
+</LinearLayout>

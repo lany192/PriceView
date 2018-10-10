@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PriceView">
+        <!--金额-->
+        <attr name="value_text" format="string"/>
+        <!--金额颜色-->
+        <attr name="value_color" format="color"/>
+        <!--整数部分大小-->
+        <attr name="integer_size" format="dimension"/>
+        <!--整数部分是否使用千分符-->
+        <attr name="integer_thousands" format="boolean"/>
+        <!--小数部分大小-->
+        <attr name="decimals_size" format="dimension"/>
+        <!--前缀文本-->
+        <attr name="prefix_text" format="string"/>
+        <!--前缀大小-->
+        <attr name="prefix_size" format="dimension"/>
+        <!--前缀颜色-->
+        <attr name="prefix_color" format="color"/>
+        <!--前缀右边距-->
+        <attr name="prefix_padding" format="dimension"/>
+        <!--小数点左边距-->
+        <attr name="point_padding_left" format="dimension"/>
+        <!--小数点右边距-->
+        <attr name="point_padding_right" format="dimension"/>
+    </declare-styleable>
+</resources>

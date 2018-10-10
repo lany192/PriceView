@@ -35,6 +35,22 @@ init
         app:value_color="@android:color/holo_red_light"
         app:value_text="123456.78" />
         
+### attribute
+
+|Attributes|format|describe
+|---|---|---|
+|value_text| string|金额
+|value_color| color|金额颜色
+|integer_size| dimension|整数部分大小
+|integer_thousands| boolean|整数部分是否使用千分符
+|decimals_size| dimension|小数部分大小
+|prefix_text| string|前缀文本
+|prefix_size| dimension|前缀大小
+|prefix_color| color|前缀颜色
+|prefix_padding| dimension|前缀右边距
+|point_padding_left| dimension|小数点左边距
+|point_padding_right| dimension |小数点右边距
+        
 ### Preview
 
 ![image](https://github.com/lany192/PriceView/raw/master/preview/pic1.png)
